@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    body{
+        background: #4793AF;
+        font-family: "Bangers", system-ui;
+    }
+
+    .image{
+        background: url(/media/superman_icon-transformed.png);
+        background-color: #4793AF;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin-top: -200px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 35%;
+        border: 2px solid black;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        padding-top: 230px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        width: 300px;
+        gap: 2px;
+        background: #FFC470;
+    }
+        form h2{
+            position: relative;
+            top: -230px;
+            left: 3.5%;
+            margin-bottom: -10px;
+        }
+
+        .boton{
+            display: inline-block;
+            width: 100px;
+            position: relative;
+            left: 33%;
+            margin-top: -20px;
+            margin-bottom: 5px;
+        }
+
+        .imageBottom{
+            background: url(/media/superman_realista-transformed.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100px;
+            position: relative;
+            right: 15px;
+        }
