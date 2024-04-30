@@ -35,10 +35,10 @@ try {
     let reseña = cajaReseña.value;
 
     console.log(`Valor campo Nombre ${capturaNombre}`);
-    console.log(`Valor campo PrecioUnitario ${capturaNombre}`);
-    console.log(`Valor campo Descripcion ${capturaNombre}`);
-    console.log(`Valor campo CapturaUrlFoto ${capturaNombre}`);
-    console.log(`Valor campo Reseña ${capturaNombre}`);
+    console.log(`Valor campo PrecioUnitario ${capturaPrecioUnitario}`);
+    console.log(`Valor campo Descripcion ${capturaDescripcion}`);
+    console.log(`Valor campo CapturaUrlFoto ${capturaUrlFoto}`);
+    console.log(`Valor campo Reseña ${reseña}`);
 
     
 } catch (error) {
