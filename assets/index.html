@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+    <form>
+        <h2>BODEGA COMIC STORE</h2>
+        <div class="image"></div>
+        <label for="campo1"></label>
+        <input type="text" id="nombre" name="campo1" placeholder="Nombre Producto"><br><br>
+        
+        <label for="campo3"></label>
+        <input type="text" id="precioUnitario" name="campo2" placeholder="Precio unitario"><br><br>
+        
+        <label for="campo2"></label>
+        <textarea type="text" id="descripcion" name="campo3" placeholder="Descripcion"></textarea>
+
+        <label for="campo4"></label>
+        <input type="text" id="foto" name="campo4" placeholder=" Url Foto"><br><br>
+        
+        <label for="campo5"></label>
+        <input type="text" id="reseña" name="campo5" placeholder="Reseña"><br><br>
+        
+        <input  class="booton" id="botonFormulario" type="submit" value="Registrar producto">
+
+        <div class="imageBottom"></div>
+      </form>
+
+    </div>
+    <script src="../controllers/controladorFormulario.js"></script>
+</body>
+</html>

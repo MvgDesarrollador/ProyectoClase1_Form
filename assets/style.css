@@ -13,7 +13,7 @@
     }
 
     .image{
-        background: url(/media/superman_icon-transformed.png);
+        background: url(media/superman_icon-transformed.png);
         background-color: #4793AF;
         background-repeat: no-repeat;
         background-size: cover;
@@ -31,6 +31,7 @@
     form{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         border: 2px solid black;
         border-radius: 10px;
         padding: 10px;
@@ -46,18 +47,22 @@
             left: 3.5%;
             margin-bottom: -10px;
         }
+        form input{
+            border-radius: 5px;
+        }
 
         .boton{
             display: inline-block;
-            width: 100px;
+            width: 200px;
             position: relative;
-            left: 33%;
+            left: 15.5%;
             margin-top: -20px;
             margin-bottom: 5px;
+
         }
 
         .imageBottom{
-            background: url(/media/superman_realista-transformed.png);
+            background: url(media/superman_realista-transformed.png);
             background-size: cover;
             background-repeat: no-repeat;
             height: 100px;
